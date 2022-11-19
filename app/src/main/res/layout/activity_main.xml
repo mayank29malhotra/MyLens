@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="382dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="162dp"
+            android:layout_marginBottom="102dp"
+            app:layout_constraintBottom_toTopOf="@+id/t1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="11dp"
+            android:fontFamily="@font/aclonica"
+            android:text="MyLens"
+            android:textColor="#171616"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/t2"
+            app:layout_constraintEnd_toEndOf="@+id/i3"
+            app:layout_constraintStart_toStartOf="@+id/i5"
+            app:layout_constraintTop_toBottomOf="@+id/i1" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="357dp"
+            android:layout_height="66dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="94dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="See the World through the Lens"
+            android:textColor="#171616"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/i5" />
+
+        <ImageView
+            android:id="@+id/i6"
+            android:layout_width="42dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="52dp"
+            app:layout_constraintBottom_toTopOf="@+id/i5"
+            app:layout_constraintEnd_toEndOf="@+id/i5"
+            app:layout_constraintStart_toStartOf="@+id/i1"
+            app:layout_constraintTop_toBottomOf="@+id/i3"
+            app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="145dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="47dp"
+            app:layout_constraintBottom_toTopOf="@+id/i6"
+            app:layout_constraintEnd_toStartOf="@+id/i3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_baseline_add_location_24" />
+
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="162dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/i6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/i2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_language_24" />
+
+        <ImageView
+            android:id="@+id/i5"
+            android:layout_width="46dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginBottom="203dp"
+            app:layout_constraintBottom_toTopOf="@+id/t2"
+            app:layout_constraintStart_toStartOf="@+id/i1"
+            app:layout_constraintTop_toBottomOf="@+id/i6"
+            app:srcCompat="@drawable/ic_baseline_text_fields_24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

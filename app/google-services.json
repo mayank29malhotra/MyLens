@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1043242582917",
+    "project_id": "mylens-fbc38",
+    "storage_bucket": "mylens-fbc38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043242582917:android:85d78b23d2044b8306faec",
+        "android_client_info": {
+          "package_name": "com.example.mylens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043242582917-924ee654bat265cjhte70od3ks08910h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl41-AQdmhxpJQhyHBsx9C1aoAGpuNENA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043242582917-924ee654bat265cjhte70od3ks08910h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
